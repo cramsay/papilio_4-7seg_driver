@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/mnt/home/craig/Documents/Programming/Papilio/DisplayDriver_4-7seg/DisplayDriver.ncd
-OUTFILE=/mnt/home/craig/Documents/Programming/Papilio/DisplayDriver_4-7seg/DisplayDriver.bit
-FAMILY=Spartan3E
-PART=xc3s500e-5vq100
-WORKINGDIR=/mnt/home/craig/Documents/Programming/Papilio/DisplayDriver_4-7seg
-LICENSE=WebPack
-USER_INFO=210825830_0_0_536
