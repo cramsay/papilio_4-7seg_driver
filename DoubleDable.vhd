@@ -19,11 +19,14 @@ begin
 		--Add 3 to any BCD codes greater than 4
 		if 	bcd(28 downto 25)>"0100" then
 			bcd(28 downto 25) := bcd(28 downto 25)+3;
-		elsif bcd(24 downto 21)>"0100" then
+		end if;
+		if bcd(24 downto 21)>"0100" then
 			bcd(24 downto 21) := bcd(24 downto 21)+3;
-		elsif bcd(20 downto 17)>"0100" then
+		end if;
+		if bcd(20 downto 17)>"0100" then
 			bcd(20 downto 17) := bcd(20 downto 17)+3;
-		elsif bcd(16 downto 13)>"0100" then
+		end if;
+		if bcd(16 downto 13)>"0100" then
 			bcd(16 downto 13) := bcd(16 downto 13)+3;
 		end if;
 		

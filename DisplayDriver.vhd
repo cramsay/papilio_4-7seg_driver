@@ -65,7 +65,7 @@ begin
 	begin
 		if rising_edge(ccount(5)) then
 				dselect<=dselect(2 downto 0)&dselect(3);
-				bcd_data<=double_dabble(ccount(37 downto 25));
+				bcd_data<=double_dabble(ccount(35 downto 23));
 		end if;
 	end process;
 	
